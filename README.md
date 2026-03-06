@@ -300,7 +300,7 @@ pip install --upgrade -r requirements.txt
 
 ## Licencia
 
-Este proyecto es de código abierto bajo la licencia MIT.
+Este proyecto es de código abierto.
 
 ## Soporte
 
