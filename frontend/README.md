@@ -1,29 +1,29 @@
-# Frontend for Gaming Hub
+# Frontend de Gaming Hub
 
-This directory contains a minimal Vue 3 + Vite + TailwindCSS frontend for the Gaming Hub API.
+Esta carpeta contiene un frontend mínimo con Vue 3 + Vite + TailwindCSS para la API de Gaming Hub.
 
-## Setup
+## Instalación
 
-1. Change to this folder:
+1. Sitúate en este directorio:
    ```bash
    cd frontend
    ```
 
-2. Install dependencies (requires Node.js 18+):
+2. Instala las dependencias (requiere Node.js 18+):
    ```bash
    npm install
    ```
 
-3. Start development server:
+3. Inicia el servidor de desarrollo:
    ```bash
    npm run dev
    ```
 
-   The app will be available at `http://localhost:3000` and requests starting with `/api` are proxied to `http://localhost:8002` (your backend).
+   La aplicación estará disponible en `http://localhost:3000` y las peticiones que empiecen por `/api` se reenvían a `http://localhost:8002` (tu backend).
 
-## Features
+## Características
 
-- Uses TailwindCSS for styling.
-- Example component `GameList.vue` fetches `/api/games/top-rated` and displays results.
+- Usa TailwindCSS para el estilo.
+- El componente de ejemplo `GameList.vue` consulta `/api/games/top-rated` y muestra los resultados.
 
-You can extend the UI by creating new components that call other endpoints (recommendations, stats, uploads, etc.).
+Puedes ampliar la interfaz creando nuevos componentes que consuman otros endpoints (recomendaciones, estadísticas, subidas, etc.).
