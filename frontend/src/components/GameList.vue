@@ -1,6 +1,13 @@
 <template>
   <div>
     <h2 class="text-2xl mb-4">Juegos mejor valorados</h2>
+    <button
+      class="mb-2 px-3 py-1 bg-blue-500 text-white rounded"
+      @click="fetchTopRated"
+      :disabled="loading"
+    >
+      Recargar
+    </button>
     <div v-if="loading" class="text-gray-500">Cargando...</div>
     <div v-else-if="error" class="text-red-500">{{ error }}</div>
     <ul v-else class="space-y-2">
